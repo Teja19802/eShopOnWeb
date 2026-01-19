@@ -2,7 +2,7 @@
 
   <PropertyGroup>  
     <RootNamespace>Microsoft.eShopWeb.FunctionalTests</RootNamespace>
-    <IsPackable>false</IsPackable>
+    <IsPackable>True</IsPackable>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
