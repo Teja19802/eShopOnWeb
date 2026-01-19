@@ -1,0 +1,12 @@
+name: CD - Deploy to DEV
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy-dev:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Deploying to DEV"
