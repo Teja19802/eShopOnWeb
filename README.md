@@ -173,3 +173,4 @@ We have some great contributions from the community, and while these aren't main
 [FShopOnWeb](https://github.com/NitroDevs/FShopOnWeb) An F# take on eShopOnWeb by Sean G. Wright and Kyle McMaster
 for ci prcatice
 for cd prcatice
+for dev practice
