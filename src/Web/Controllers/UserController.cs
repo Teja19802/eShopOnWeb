@@ -35,8 +35,13 @@ public class UserController : ControllerBase
     [HttpGet]
     [Authorize]
     [AllowAnonymous]
-    public async Task<IActionResult> GetCurrentUser() =>
-        Ok(await CreateUserInfo(User));
+    public async Task<IActionResult> GetCurrentUser()
+    {
+        throw new Exception("DEV runtime failure test");
+
+        return Ok(await CreateUserInfo(User));
+    }
+
 
     [Route("Logout")]
     [HttpPost]
